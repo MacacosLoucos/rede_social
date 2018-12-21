@@ -1,0 +1,37 @@
+    body{
+        height: 100%;
+        overflow-x: hidden;
+    }
+
+
+    
+    ul li.nav-item{
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    #header a:not(.dropdown-item){
+        color: #ffffff;
+    }
+
+
+    .pagina{
+        position: fixed;
+    }
+
+    @media only screen and (max-width: 768px) {
+
+        .pagina-s{
+            display: none;
+        }
+    }
+
+    .pagina nav a{
+        color: #000000;
+    }
+
+    .chat{
+        position: fixed;
+        overflow-y: scroll;
+        height: 40em;
+    }
